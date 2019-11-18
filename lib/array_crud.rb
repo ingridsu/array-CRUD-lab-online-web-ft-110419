@@ -7,7 +7,7 @@ pets = ["cat", "dog", "mouse", "snake"]
 end
 
 def add_element_to_end_of_array(array, element)
- puts array << "element"
+  array << "element"
 end
 
 
