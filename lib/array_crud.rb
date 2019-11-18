@@ -7,14 +7,12 @@ pets = ["cat", "dog", "mouse", "snake"]
 end
 
 def add_element_to_end_of_array(array, element)
-arr << ""
-  
+arr << "gerbil"
 end
-puts add_element_to_start_of_array
 
-def add_element_to_start_of_array(pets)
-puts pets = ["cat", "dog", "mouse", "snake"]
-    array.unshift ("gerbal")
+
+def add_element_to_start_of_array(array)
+ arr.unshift ("gerbal")
 end
 
 def remove_element_from_end_of_array(array)
