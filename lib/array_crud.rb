@@ -7,20 +7,20 @@ pets = ["cat", "dog", "mouse", "snake"]
 end
 
 def add_element_to_end_of_array(array, element)
-arr << "elment"
+array << "elment"
 end
 
 
 def add_element_to_start_of_array(array)
-  arr.unshift ("rat")
+  array.unshift ("rat")
 end
 
 def remove_element_from_end_of_array(array)
-  arr.pets.pop
+  array.pets.pop
 end
 
 def remove_element_from_start_of_array(array)
-   arr.shift
+   array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
